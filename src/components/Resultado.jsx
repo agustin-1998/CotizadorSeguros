@@ -26,7 +26,6 @@ export default function Resultado() {
     [resultado]);
 
     // useRef: crea una variable mutable que persiste durante toda la vida del componente, es decir, no se vuelve a ejecutar cuando se renderiza el componente
-
     
     if(resultado === 0) return null;
 

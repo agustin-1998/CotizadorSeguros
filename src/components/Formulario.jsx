@@ -14,7 +14,6 @@ export default function Formulario() {
             setError('Todos los campos son obligatorios');  
             return;
         } else {
-            console.log(cotizarSeguro());
             setError('');
         }
     }
